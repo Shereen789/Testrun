@@ -1,6 +1,6 @@
 def maxBlock(word):
     m= 1
-    ma = 0
+    ma = 1
     for i in range(0,len(word)-1):
         if word[i] == word[i+1]:
             m+=1
@@ -8,5 +8,4 @@ def maxBlock(word):
                 ma = m
         else:
             m = 1
-            ma = m
     return ma
