@@ -8,4 +8,5 @@ def maxBlock(word):
                 ma = m
         else:
             m = 1
+            ma = m
     return ma
