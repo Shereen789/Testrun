@@ -1,10 +1,4 @@
-'''
-    Given a string, return the length of the largest "block"
-    in the string. A block is a run of adjacent chars that are
-    the same.
-'''
-​
-import unittest
+​import unittest
 from A1 import *
 ​
 class Testing(unittest.TestCase) :
