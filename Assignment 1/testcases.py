@@ -5,7 +5,7 @@
 '''
 
 import unittest
-from operations import *
+from Operations import *
 
 class Testing(unittest.TestCase) :
     def test_add(self) :
