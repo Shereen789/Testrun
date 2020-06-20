@@ -8,7 +8,7 @@ sys.path.append(os.getcwd())
 from solution.solution import maxBlock
 import pytest
 
-@pytest.mark.parametrize('x,y,result',[
+@pytest.mark.parametrize('x,result',[
     ("hoopla",2),("abbCCCddBBBxx",3)
 ])
 def test_maxblock(x,result):
