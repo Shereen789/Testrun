@@ -9,7 +9,7 @@ from solution.solution import maxBlock
 import pytest
 
 @pytest.mark.parametrize('x,result',[
-    ("hoopla",3),("abbCCCddBBBxx",3)
+    ("hoopla",3),("abbCCCddBBBxx",3),("xyz",1)
 ])
 def test_maxblock(x,result):
     assert maxBlock(x) == result
