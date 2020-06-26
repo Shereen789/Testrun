@@ -12,3 +12,4 @@ def maxBlock(word):
     if len(word) == 0:
         ma = 0
     return ma;
+    #this is to check u!!
