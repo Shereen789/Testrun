@@ -1,4 +1,5 @@
 def maxBlock(word):
+    #a sample program
     m= 1
     ma = 1
     for i in range(0,len(word)-1):
