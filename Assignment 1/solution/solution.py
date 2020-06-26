@@ -6,6 +6,9 @@ def maxBlock(word):
         if word[i] == word[i+1]:
             m+=1
             if m>ma:
+
+
+
                 ma = m
 
         else:
