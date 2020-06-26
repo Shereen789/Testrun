@@ -7,6 +7,7 @@ def maxBlock(word):
             m+=1
             if m>ma:
                 ma = m
+
         else:
             m = 1
     if len(word) == 0:
