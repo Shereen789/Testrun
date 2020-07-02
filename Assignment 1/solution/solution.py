@@ -11,4 +11,5 @@ def maxBlock(word):
             m = 1
     if len(word) == 0:
         ma = 0
+
     return ma
